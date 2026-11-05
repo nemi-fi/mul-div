@@ -1,0 +1,10 @@
+name: Release preparation (checks only)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compatibility:
+    uses: ./.github/workflows/test.yml
+  benchmarks:
+    uses: ./.github/workflows/benchmarks.yml

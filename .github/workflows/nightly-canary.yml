@@ -1,0 +1,17 @@
+name: Noir nightly compatibility probe
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  consumer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: noir-lang/noirup@v0.1.5
+        with:
+          toolchain: nightly
+      - name: Probe MulDiv APIs from an isolated consumer
+        run: python3 scripts/test-consumer.py --canary
