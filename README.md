@@ -65,8 +65,6 @@ yarn install
 
 Plain `nargo test` without `--oracle-resolver` fails on the oracle tests.
 
-See [benchmark commands and results](benchmarks/README.md) for benchmarks.
-
 ## Performance
 
 Standalone circuit consumers use 3,063 gates for u128 floor multiply-divide and
