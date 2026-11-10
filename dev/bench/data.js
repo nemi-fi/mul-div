@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794327209276,
+  "lastUpdate": 1794327210842,
   "repoUrl": "https://github.com/noir-lang/mul-div",
   "entries": {
     "ACIR Opcodes": [
@@ -477,6 +477,116 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/noir-lang/mul-div/commit/bdd00c85bcfb375d4e17c8968e87b337c4a9fda5"
         },
         "date": 1794327201841,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "bench_u128_mul_div_ceil.json/main",
+            "value": 3091,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u128_mul_div_floor.json/main",
+            "value": 3063,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u128_mul_div_rem.json/main",
+            "value": 3065,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u16_mul_div_ceil.json/main",
+            "value": 2798,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u16_mul_div_floor.json/main",
+            "value": 2779,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u16_mul_div_rem.json/main",
+            "value": 2781,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u256_mul_div_ceil.json/main",
+            "value": 3046,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u256_mul_div_floor.json/main",
+            "value": 2958,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u256_mul_div_rem.json/main",
+            "value": 2964,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u32_mul_div_ceil.json/main",
+            "value": 2802,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u32_mul_div_floor.json/main",
+            "value": 2783,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u32_mul_div_rem.json/main",
+            "value": 2785,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u64_mul_div_ceil.json/main",
+            "value": 2857,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u64_mul_div_floor.json/main",
+            "value": 2833,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u64_mul_div_rem.json/main",
+            "value": 2835,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u8_mul_div_ceil.json/main",
+            "value": 102,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u8_mul_div_floor.json/main",
+            "value": 84,
+            "unit": "circuit_size"
+          },
+          {
+            "name": "bench_u8_mul_div_rem.json/main",
+            "value": 86,
+            "unit": "circuit_size"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "noir-lang",
+            "username": "noir-lang"
+          },
+          "committer": {
+            "name": "noir-lang",
+            "username": "noir-lang"
+          },
+          "id": "5140e08e8586350d497e9ef9269f99a0b405c8d2",
+          "message": "chore: keep branch-named benchmark reports for same-repo PRs; guard benchmark-action comments on forks",
+          "timestamp": "2026-11-10T15:37:52Z",
+          "url": "https://github.com/noir-lang/mul-div/pull/16/commits/5140e08e8586350d497e9ef9269f99a0b405c8d2"
+        },
+        "date": 1794327210832,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
