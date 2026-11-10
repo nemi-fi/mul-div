@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794334639315,
+  "lastUpdate": 1794334643144,
   "repoUrl": "https://github.com/noir-lang/mul-div",
   "entries": {
     "ACIR Opcodes": [
@@ -1155,6 +1155,120 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/noir-lang/mul-div/pull/16/commits/5140e08e8586350d497e9ef9269f99a0b405c8d2"
         },
         "date": 1794327215552,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "bench_u128_mul_div_ceil",
+            "value": 276,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u128_mul_div_floor",
+            "value": 258,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u128_mul_div_rem",
+            "value": 260,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_ceil",
+            "value": 93,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_floor",
+            "value": 53,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_rem",
+            "value": 58,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u256_mul_div_ceil",
+            "value": 1729,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u256_mul_div_floor",
+            "value": 1477,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u256_mul_div_rem",
+            "value": 1499,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_ceil",
+            "value": 93,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_floor",
+            "value": 53,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_rem",
+            "value": 58,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_ceil",
+            "value": 93,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_floor",
+            "value": 53,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_rem",
+            "value": 58,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_ceil",
+            "value": 93,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_floor",
+            "value": 53,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_rem",
+            "value": 58,
+            "unit": "opcodes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49558828+AztecBot@users.noreply.github.com",
+            "name": "Aztec Bot",
+            "username": "AztecBot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "78659225cdb8fbf29da4fa512d834d774fc025c1",
+          "message": "feat: verify u128 mul_div without bigint (#17)\n\n* feat: verify u128 mul_div without bigint\n\n* chore: name the u128 limb constants, add assert messages and dishonest-split tests",
+          "timestamp": "2026-11-10T18:16:01Z",
+          "tree_id": "1f00ed25a35afd1c834275e634d6ff15aedc402f",
+          "url": "https://github.com/noir-lang/mul-div/commit/78659225cdb8fbf29da4fa512d834d774fc025c1"
+        },
+        "date": 1794334643132,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
