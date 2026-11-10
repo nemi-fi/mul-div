@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794325127937,
+  "lastUpdate": 1794327199176,
   "repoUrl": "https://github.com/noir-lang/mul-div",
   "entries": {
     "ACIR Opcodes": [
@@ -23,6 +23,120 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/noir-lang/mul-div/commit/d896ef4f1c0829b3208506a053a8886e62fa9c48"
         },
         "date": 1794325107620,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "bench_u128_mul_div_ceil.json/main",
+            "value": 121,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u128_mul_div_floor.json/main",
+            "value": 109,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u128_mul_div_rem.json/main",
+            "value": 110,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_ceil.json/main",
+            "value": 39,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_floor.json/main",
+            "value": 20,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_rem.json/main",
+            "value": 21,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u256_mul_div_ceil.json/main",
+            "value": 132,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u256_mul_div_floor.json/main",
+            "value": 71,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u256_mul_div_rem.json/main",
+            "value": 74,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_ceil.json/main",
+            "value": 39,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_floor.json/main",
+            "value": 20,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_rem.json/main",
+            "value": 21,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_ceil.json/main",
+            "value": 39,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_floor.json/main",
+            "value": 20,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_rem.json/main",
+            "value": 21,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_ceil.json/main",
+            "value": 39,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_floor.json/main",
+            "value": 20,
+            "unit": "acir_opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_rem.json/main",
+            "value": 21,
+            "unit": "acir_opcodes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49558828+AztecBot@users.noreply.github.com",
+            "name": "Aztec Bot",
+            "username": "AztecBot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "bdd00c85bcfb375d4e17c8968e87b337c4a9fda5",
+          "message": "chore: keep branch-named benchmark reports for same-repo PRs; guard benchmark-action comments on forks (#16)",
+          "timestamp": "2026-11-10T16:11:57Z",
+          "tree_id": "3212b0bc1e28da132e489dcd4ae7d86e3acf4c49",
+          "url": "https://github.com/noir-lang/mul-div/commit/bdd00c85bcfb375d4e17c8968e87b337c4a9fda5"
+        },
+        "date": 1794327198004,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
