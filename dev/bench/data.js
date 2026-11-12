@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794484948795,
+  "lastUpdate": 1794484951976,
   "repoUrl": "https://github.com/noir-lang/mul-div",
   "entries": {
     "ACIR Opcodes": [
@@ -2373,6 +2373,105 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/noir-lang/mul-div/commit/d22aa01bc1254048b3b171a8b402471b77e723c6"
         },
         "date": 1794473900949,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "bench_u128_mul_div_ceil",
+            "value": 276,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u128_mul_div_floor",
+            "value": 258,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u128_mul_div_rem",
+            "value": 260,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_ceil",
+            "value": 93,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_floor",
+            "value": 53,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u16_mul_div_rem",
+            "value": 58,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_ceil",
+            "value": 93,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_floor",
+            "value": 53,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u32_mul_div_rem",
+            "value": 58,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_ceil",
+            "value": 93,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_floor",
+            "value": 53,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u64_mul_div_rem",
+            "value": 58,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_ceil",
+            "value": 93,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_floor",
+            "value": 53,
+            "unit": "opcodes"
+          },
+          {
+            "name": "bench_u8_mul_div_rem",
+            "value": 58,
+            "unit": "opcodes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "163862677+noirwhal@users.noreply.github.com",
+            "name": "noirwhal",
+            "username": "noirwhal"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "07973c5742f32cd01a6484bfd86aa5cee5e5fe5b",
+          "message": "chore: Release 0.1.0-rc.1 (#11)",
+          "timestamp": "2026-11-12T12:01:15Z",
+          "tree_id": "8584fac84c645df1c52b7c047fe4c1c1c7c9abdb",
+          "url": "https://github.com/noir-lang/mul-div/commit/07973c5742f32cd01a6484bfd86aa5cee5e5fe5b"
+        },
+        "date": 1794484951962,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
